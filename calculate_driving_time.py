@@ -3,7 +3,9 @@ import simplejson
 import urllib.request
 
 from user_definition import *
-
+output_file_name = 'output.txt'
+orig_coord = '37.7909,-122.3925'
+dest_coord = '37.7765,-122.4506'
 output_file = open(output_file_name, "a")
 # https://developers.google.com/maps/documentation/javascript/get-api-key
 apikey = 'AIzaSyCTWPyWsLgoMH6w_1iEf161paxhTiK1dNk'
